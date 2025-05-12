@@ -74,6 +74,7 @@ while running:
     # Draw player, spike, and score
     pygame.draw.rect(screen, GREEN, (player_x, player_y, player_size, player_size))
     pygame.draw.polygon(screen, RED, [(spike_x, spike_height), (spike_x + spike_width // 2, spike_y - spike_height), (spike_x + spike_width, HEIGHT +-spike_y)])
+    pygame.draw.rect(screen, RED, (spike_x, spike_y-10, 10, spike_width))
     score_text = font.render(f"Score: {score}", True, BLACK)
     screen.blit(score_text, (10, 10))
 
