@@ -15,3 +15,5 @@ Jump is a simple and fun game where the goal is to avoid obstacles by jumping ov
 1. Clone the repository:
    ```bash
    git clone https://github.com/Meep439/Jump.git
+## Contributing
+Contributions are welcome! Please submit issues or pull requests to help improve the game.
