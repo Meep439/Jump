@@ -30,7 +30,7 @@ gravity = 1
 spike_width = 20
 spike_height = 40
 spike_x = WIDTH
-spike_y = HEIGHT - spike_height
+spike_y = HEIGHT - (spike_height / 2)
 spike_speed = 10
 
 # Game variables
